@@ -1,6 +1,6 @@
 {
   "name": "easy7d-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "main.js",
   "repository": {
@@ -15,10 +15,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^22.0.0"
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
   },
   "dependencies": {
-    "electron-builder": "^23.6.0",
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^4.4.8",
+    "electron-progressbar": "^2.0.1",
     "electron-updater": "^5.3.0",
     "serialport": "^10.5.0"
   }
