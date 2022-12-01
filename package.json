@@ -1,0 +1,25 @@
+{
+  "name": "easy7d-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aimsarik/soma.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-builder": "^23.6.0",
+    "electron-updater": "^5.3.0",
+    "serialport": "^10.5.0"
+  }
+}
