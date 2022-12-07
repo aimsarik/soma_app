@@ -1,11 +1,11 @@
 {
   "name": "easy7d-app",
-  "version": "1.0.2",
+  "version": "1.1.6",
   "description": "",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aimsarik/soma.git"
+    "url": "https://github.com/aimsarik/soma_app.git"
   },
   "scripts": {
     "start": "electron .",

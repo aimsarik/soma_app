@@ -15,19 +15,18 @@ function createWindow () {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
-      // devTools: false,
+      devTools: false,
     }
   })    
-  win.loadURL("http://localhost/");
+  win.loadURL("http://localhost");
   win.setIcon(path.join(__dirname, "/src/assets/home_screen.png"));
-  
   
   if (!isDev) {
 		autoUpdater.checkForUpdates();
 	};
 
   win.maximize();
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
 
   ipcMain.on("open_door", (event, arg) => {
     port.write("1");
