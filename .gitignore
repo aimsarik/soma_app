@@ -7,3 +7,6 @@ logs
 electron-builder.yml
 *.exe
 *.ico
+main.js
+package.json
+preload.js
